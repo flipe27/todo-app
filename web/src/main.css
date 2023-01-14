@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.defaultMode {
+    @apply text-black bg-white
+}
+.darkMode {
+    @apply text-white bg-neutral-900
+}
